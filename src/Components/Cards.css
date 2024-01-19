@@ -1,0 +1,5 @@
+.card{
+    display: flex;
+    color: goldenrod;
+    flex-direction: column;
+}
