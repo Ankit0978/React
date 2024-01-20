@@ -3,13 +3,12 @@ import React from "react";
 
 
 
-function Item1 (){
+function Item1 (props){
+
+    const itemName = props.name;
     return(
     <div>
-     <p> Nirma</p>
-     <p> Gahdi</p>
-     <p> Surf</p>
-     <p> Joe</p>
+     <p> {itemName}</p>
     </div>
     );
 }

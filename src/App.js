@@ -9,7 +9,9 @@
 //  import  from "./Components./Item";
 
 import Item1 from "./Components/Item1";
-import Item2 from './Components/Item2';
+// import Item2 from './Components/Item2';
+// import Item3 from "./Components/Item3";
+import Itemdate1 from './Components/ItemDate1';
 
 //  import Practice from "./Components/practice"
 // import src from '*.avif';
@@ -84,18 +86,28 @@ import Item2 from './Components/Item2';
 // export default App;
 
 function App () {
+
+  const secondItemname = "Saurabh"
+  const firstName = "Arpit"
+  const thirdName = "Ayush"
   return(
     <div>
-    <Item1></Item1>
-   <Item2></Item2>
-    <p>This is an Item</p>
+    <Item1 name = {firstName}></Item1>
+    <Itemdate1 day = "19" month ="July" year = "1996"></Itemdate1>
+   {/* <Item2></Item2> */}
+   <Item1 name = {secondItemname}></Item1>
+   <Itemdate1 day = "20" month ="January" year = "2000"></Itemdate1>
+
+   <Item1 name = {thirdName}></Item1>
+
+   {/* <Item3></Item3> */}
+   <Itemdate1 day = "26" month ="September" year = "1994"></Itemdate1>
+    {/* <p>This is an Item</p> */}
     </div>
   
   );
 
-  {
-    
-  }
+  
  
 
   
