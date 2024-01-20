@@ -89,7 +89,7 @@ function App () {
 
   const secondItemname = "Saurabh"
   const firstName = "Arpit"
-  const thirdName = "Ayush"
+  const fourthName = "Ayush"
   return(
     <div>
     <Item1 name = {firstName}></Item1>
@@ -98,7 +98,7 @@ function App () {
    <Item1 name = {secondItemname}></Item1>
    <Itemdate1 day = "20" month ="January" year = "2000"></Itemdate1>
 
-   <Item1 name = {thirdName}></Item1>
+   <Item1 name = {fourthName}></Item1>
 
    {/* <Item3></Item3> */}
    <Itemdate1 day = "26" month ="September" year = "1994"></Itemdate1>
