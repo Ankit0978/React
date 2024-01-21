@@ -1,0 +1,41 @@
+.styles{
+    
+        border: 1px solid;
+        border-radius: 10px;
+        background-color: aquamarine;
+        padding: 10x;
+        margin: 20px;
+        text-align: center;
+}
+
+.styles1{
+        border: 1px solid;
+        border-radius: 10px;
+        background-color:blueviolet;
+        padding: 10x;
+        margin: 20px;
+        text-align: center;
+}
+
+.style3{
+        border: 1px solid;
+        border-radius: 10px;
+        background-color:brown;
+        padding: 10x;
+        margin: 20px;
+        text-align: center;
+
+}
+
+/* 
+.Style4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+} */
+
+
