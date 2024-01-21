@@ -12,7 +12,7 @@ import Item1 from "./Components/Item1";
 // import Item2 from './Components/Item2';
 // import Item3 from "./Components/Item3";
 import Itemdate1 from './Components/ItemDate1';
-
+import Cards1 from "./Components/Cards1"
 //  import Practice from "./Components/practice"
 // import src from '*.avif';
 
@@ -87,22 +87,43 @@ import Itemdate1 from './Components/ItemDate1';
 
 function App () {
 
-  const secondItemname = "Saurabh"
-  const firstName = "Arpit"
-  const fourthName = "Ayush"
+  const response = [
+    {
+      itemName: "Ankit",
+      itemDate: "20",
+      itemMonth: "July",
+      itemYear: "1997"
+    },
+    {
+      itemName: "Shivam",
+      itemDate: "19",
+      itemMonth: "Aug",
+      itemYear: "1996"
+    },
+    {
+      itemName: "Ekaram",
+      itemDate: "15",
+      itemMonth: "Sep",
+      itemYear: "1998"
+    },
+  ]
   return(
     <div>
-    <Item1 name = {firstName}></Item1>
-    <Itemdate1 day = "19" month ="July" year = "1996"></Itemdate1>
+    <Cards1>
+    <Item1 name = {response[0].itemName}>
+      Hello ji mein hun aapka first children
+    </Item1>
+    <Itemdate1 day = {response[0].itemDate} month ={response[0].itemMonth} year = {response[0].itemYear}></Itemdate1>
    {/* <Item2></Item2> */}
-   <Item1 name = {secondItemname}></Item1>
-   <Itemdate1 day = "20" month ="January" year = "2000"></Itemdate1>
+   <Item1 name = {response[1].itemName}></Item1>
+   <Itemdate1 day = {response[1].itemDate} month ={response[1].itemMonth} year = {response[1].itemYear}></Itemdate1>
 
-   <Item1 name = {fourthName}></Item1>
+   <Item1 name = {response[2].itemName}></Item1>
 
    {/* <Item3></Item3> */}
-   <Itemdate1 day = "26" month ="September" year = "1994"></Itemdate1>
+   <Itemdate1 day = {response[2].itemDate} month ={response[2].itemMonth} year = {response[2].itemYear}></Itemdate1>
     {/* <p>This is an Item</p> */}
+    </Cards1>
     </div>
   
   );

@@ -8,7 +8,10 @@ function Item1 (props){
     const itemName = props.name;
     return(
     <div>
+    {/* {props.children} */}
      <p> {itemName}</p>
+     {props.children}
+
     </div>
     );
 }
