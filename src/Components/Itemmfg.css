@@ -1,3 +1,19 @@
+/* *{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+} */
+/* *{
+    overflow: hidden;
+} */
+
+/* 
+.Body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+} */
 .styles{
     
         border: 1px solid;
