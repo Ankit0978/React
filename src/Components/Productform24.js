@@ -17,6 +17,7 @@ function Productform24(){
     function changeDateHandler (event){
         setDate(event.target.value)
         console.log(event.target.value)
+        // comment
         
     }
     return(
